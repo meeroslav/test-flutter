@@ -1,6 +1,6 @@
 {
   "name": "@test-flutter/test-lib",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "dependencies": {},
   "main": "./index.js",
   "module": "./index.mjs",

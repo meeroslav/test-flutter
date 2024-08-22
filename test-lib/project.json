@@ -8,11 +8,22 @@
     "build": {
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/test-lib",
         "main": "test-lib/src/index.ts",
         "tsConfig": "test-lib/tsconfig.lib.json",
-        "assets": ["test-lib/*.md"]
+        "ssr": false,
+        "minify": true,
+        "target": "esnext"
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
       }
     }
   }
