@@ -1,0 +1,9 @@
+{
+  "name": "test-flutter",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/test-flutter",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project test-flutter --web",
+  "targets": {}
+}
